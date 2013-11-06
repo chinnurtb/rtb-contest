@@ -2,7 +2,7 @@ CREATE TABLE IF NOT EXISTS bid (
   `BidId`            VARCHAR(50),
   `Timestamp`        BIGINT,
   `UserId`           VARCHAR(50),
-  `UserAgent`        VARCHAR(50),
+  `UserAgent`        VARCHAR(200),
   `IP`               VARCHAR(15),
   `Region`           BIGINT,
   `City`             BIGINT,
